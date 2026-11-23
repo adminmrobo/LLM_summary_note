@@ -1,0 +1,102 @@
+{
+ "series_ko": "AI 연구실 해설 · 하루에 다 끝내는 시리즈",
+ "title_ko": "하루에 다 끝내는 자연어 분석 서머리 노트 — 저녁반",
+ "site_title": "하루에 다 끝내는 자연어 분석 서머리 노트",
+ "site_url": "https://adminmrobo.github.io/LLM_summary_note/",
+ "ontology": {
+  "pages": [
+   {
+    "path": "index.html",
+    "kg": true,
+    "export": true
+   },
+   {
+    "path": "practice/index.html",
+    "kg": false,
+    "export": false
+   }
+  ],
+  "files": [
+   "KG_new_ids.json"
+  ]
+ },
+ "i18n": {
+  "langs": [
+   "ko"
+  ],
+  "pages": {
+   "ko": 2
+  },
+  "readme_langs": [
+   "ko"
+  ]
+ },
+ "languages": [
+  "ko"
+ ],
+ "items": [
+  {
+   "id": "cover",
+   "role": "cover",
+   "path": "cover_one_day_nlp_pm.webp",
+   "embedded_in": "index.html",
+   "key": "figure.cover2 img.c2img",
+   "size": [
+    1920,
+    1080
+   ],
+   "characters": [
+    "sia",
+    "moa"
+   ],
+   "robot": null,
+   "prompt_en": "docs/COVER_one_day_nlp_pm.md",
+   "source_of": null,
+   "status": "done",
+   "style": "pixel",
+   "note": "캐릭터 팩 픽셀 그림(sia E17, moa E01)을 640×360 격자 배경에 얹어 3배 확대. Genspark 그림을 받으면 교체 가능"
+  },
+  {
+   "id": "og",
+   "role": "og",
+   "path": "og_one_day_nlp_pm.jpg",
+   "embedded_in": "index.html",
+   "key": "meta[property=og:image]",
+   "size": [
+    1200,
+    630
+   ],
+   "characters": [
+    "sia",
+    "moa"
+   ],
+   "robot": null,
+   "prompt_en": "",
+   "source_of": "cover",
+   "status": "done",
+   "style": "pixel",
+   "note": "표지 원격자에서 400×210을 잘라 3배"
+  },
+  {
+   "id": "thumb",
+   "role": "thumb",
+   "path": "thumb_one_day_nlp_pm.webp",
+   "embedded_in": null,
+   "key": null,
+   "size": [
+    600,
+    400
+   ],
+   "characters": [
+    "sia",
+    "moa"
+   ],
+   "robot": null,
+   "prompt_en": "",
+   "source_of": "cover",
+   "status": "done",
+   "style": "pixel",
+   "note": "표지 원격자에서 300×200을 잘라 2배"
+  }
+ ]
+}

@@ -1,0 +1,681 @@
+{
+ "note": "KG_00_registry.json에 더할 항목 (하루에 다 끝내는 자연어 분석 저녁반).",
+ "updated": "2026-11-23",
+ "entries": [
+  {
+   "id": "lab:method/nlp",
+   "type": "Method",
+   "label_ko": "자연어 처리",
+   "label_en": "Natural language processing",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:concept/nlp-pipeline",
+   "type": "Concept",
+   "label_ko": "자연어 처리 파이프라인",
+   "label_en": "NLP pipeline",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/text-preprocessing",
+   "type": "Method",
+   "label_ko": "텍스트 전처리",
+   "label_en": "Text preprocessing",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:concept/stopword",
+   "type": "Term",
+   "label_ko": "불용어",
+   "label_en": "Stopword",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/stemming",
+   "type": "Method",
+   "label_ko": "어간 추출",
+   "label_en": "Stemming",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/lemmatization",
+   "type": "Method",
+   "label_ko": "표제어 추출",
+   "label_en": "Lemmatization",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/tokenization",
+   "type": "Method",
+   "label_ko": "토큰화",
+   "label_en": "Tokenization",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/subword-bpe",
+   "type": "Method",
+   "label_ko": "서브워드 토큰화 (BPE·WordPiece)",
+   "label_en": "Subword tokenization (BPE, WordPiece)",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/bag-of-words",
+   "type": "Method",
+   "label_ko": "단어 주머니",
+   "label_en": "Bag of words",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/n-gram",
+   "type": "Method",
+   "label_ko": "n-그램",
+   "label_en": "N-gram",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/tf-idf",
+   "type": "Method",
+   "label_ko": "TF-IDF",
+   "label_en": "TF-IDF",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/word-embedding",
+   "type": "Method",
+   "label_ko": "단어 임베딩",
+   "label_en": "Word embedding",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:concept/contextual-embedding",
+   "type": "Concept",
+   "label_ko": "문맥형 임베딩",
+   "label_en": "Contextual embedding",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:metric/cosine-similarity",
+   "type": "Metric",
+   "label_ko": "코사인 유사도",
+   "label_en": "Cosine similarity",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:task/text-classification",
+   "type": "Task",
+   "label_ko": "텍스트 분류",
+   "label_en": "Text classification",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:task/sentiment-analysis",
+   "type": "Task",
+   "label_ko": "감성 분석",
+   "label_en": "Sentiment analysis",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/logistic-regression",
+   "type": "Method",
+   "label_ko": "로지스틱 회귀",
+   "label_en": "Logistic regression",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/lexicon-sentiment",
+   "type": "Method",
+   "label_ko": "낱말 목록 감성 판정",
+   "label_en": "Lexicon-based sentiment",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:task/ner",
+   "type": "Task",
+   "label_ko": "개체명 인식",
+   "label_en": "Named entity recognition",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:task/pos-tagging",
+   "type": "Task",
+   "label_ko": "품사 태깅",
+   "label_en": "Part-of-speech tagging",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/rnn",
+   "type": "Method",
+   "label_ko": "순환 신경망",
+   "label_en": "Recurrent neural network",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/seq2seq-attention",
+   "type": "Method",
+   "label_ko": "Seq2Seq + 어텐션",
+   "label_en": "Seq2Seq with attention",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/transformer",
+   "type": "Method",
+   "label_ko": "트랜스포머",
+   "label_en": "Transformer",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/self-attention",
+   "type": "Method",
+   "label_ko": "셀프 어텐션",
+   "label_en": "Self-attention",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/bert",
+   "type": "Method",
+   "label_ko": "BERT",
+   "label_en": "BERT",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/gpt",
+   "type": "Method",
+   "label_ko": "GPT",
+   "label_en": "GPT",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:concept/llm",
+   "type": "Concept",
+   "label_ko": "대규모 언어 모델",
+   "label_en": "Large language model",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/fine-tuning",
+   "type": "Method",
+   "label_ko": "미세조정",
+   "label_en": "Fine-tuning",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/prompting",
+   "type": "Method",
+   "label_ko": "프롬프트·퓨샷",
+   "label_en": "Prompting and few-shot",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/rag",
+   "type": "Method",
+   "label_ko": "검색 증강 생성",
+   "label_en": "Retrieval-augmented generation",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/semantic-search",
+   "type": "Method",
+   "label_ko": "의미 검색",
+   "label_en": "Semantic search",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/bm25",
+   "type": "Method",
+   "label_ko": "BM25 키워드 검색",
+   "label_en": "BM25",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:method/topic-modeling",
+   "type": "Method",
+   "label_ko": "주제 모델링",
+   "label_en": "Topic modeling",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:metric/precision",
+   "type": "Metric",
+   "label_ko": "정밀도",
+   "label_en": "Precision",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:metric/recall",
+   "type": "Metric",
+   "label_ko": "재현율",
+   "label_en": "Recall",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:metric/f1",
+   "type": "Metric",
+   "label_ko": "F1 점수",
+   "label_en": "F1 score",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:metric/bleu-rouge",
+   "type": "Metric",
+   "label_ko": "BLEU·ROUGE",
+   "label_en": "BLEU and ROUGE",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:metric/precision-at-k",
+   "type": "Metric",
+   "label_ko": "Precision@k·MRR",
+   "label_en": "Precision@k and MRR",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:concept/baseline",
+   "type": "Concept",
+   "label_ko": "기준 모델",
+   "label_en": "Baseline model",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:claim/negation-stopword-flips-sentiment",
+   "type": "Claim",
+   "label_ko": "불용어로 부정어를 지우면 감성 판정이 뒤집힌다",
+   "label_en": "Removing negations as stopwords flips sentiment",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:claim/tfidf-misses-synonyms",
+   "type": "Claim",
+   "label_ko": "TF-IDF는 같은 뜻의 다른 낱말을 닮았다고 보지 못한다",
+   "label_en": "TF-IDF misses synonyms",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:claim/accuracy-misleads-imbalance",
+   "type": "Claim",
+   "label_ko": "한쪽이 드물면 정확도는 모델을 실제보다 좋게 보이게 한다",
+   "label_en": "Accuracy misleads under class imbalance",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:claim/start-with-baseline",
+   "type": "Claim",
+   "label_ko": "큰 모델 전에 단순한 기준 모델부터 세운다",
+   "label_en": "Start with a simple baseline",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:claim/transformer-parallel",
+   "type": "Claim",
+   "label_ko": "트랜스포머는 어텐션으로 나란히 계산하고 먼 문맥을 바로 본다",
+   "label_en": "Transformers parallelise and capture long-range context",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:limitation/bow-loses-order",
+   "type": "Limitation",
+   "label_ko": "단어 주머니는 순서를 잃는다",
+   "label_en": "BoW loses word order",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:limitation/static-embedding-one-sense",
+   "type": "Limitation",
+   "label_ko": "고정형 임베딩은 낱말마다 뜻 하나만 담는다",
+   "label_en": "Static embeddings hold one sense per word",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:limitation/attention-quadratic",
+   "type": "Limitation",
+   "label_ko": "셀프 어텐션은 길이의 제곱만큼 쌍을 본다",
+   "label_en": "Self-attention cost grows with length squared",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:limitation/llm-not-fact-checked",
+   "type": "Limitation",
+   "label_ko": "LLM의 답은 다음 말 확률에서 뽑은 것으로 사실 확인을 거치지 않는다",
+   "label_en": "LLM outputs are not fact-checked",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:analogy/shopping-receipt",
+   "type": "Analogy",
+   "label_ko": "장바구니 영수증",
+   "label_en": "Shopping receipt",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:analogy/mall-map",
+   "type": "Analogy",
+   "label_ko": "상가 지도",
+   "label_en": "Shopping-street map",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:analogy/group-chat",
+   "type": "Analogy",
+   "label_ko": "단체 대화방",
+   "label_en": "Group chat",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:analogy/net-and-pond",
+   "type": "Analogy",
+   "label_ko": "그물과 연못",
+   "label_en": "Net and pond",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:simulation/nlp-pm-p1",
+   "type": "Simulation",
+   "label_ko": "과제 맞히기 게임",
+   "label_en": "Task matching game",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:simulation/nlp-pm-p3",
+   "type": "Simulation",
+   "label_ko": "다듬기 스위치 게임",
+   "label_en": "Preprocessing switch game",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:simulation/nlp-pm-p4",
+   "type": "Simulation",
+   "label_ko": "서브워드 사전 만들기",
+   "label_en": "Building a subword vocabulary",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:simulation/nlp-pm-p6",
+   "type": "Simulation",
+   "label_ko": "TF-IDF 무게 달기",
+   "label_en": "TF-IDF weighting demo",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:simulation/nlp-pm-p8",
+   "type": "Simulation",
+   "label_ko": "모델 속이기 게임",
+   "label_en": "Fool-the-classifier game",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:simulation/nlp-pm-p9",
+   "type": "Simulation",
+   "label_ko": "형광펜 개체 칠하기",
+   "label_en": "NER highlighting game",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:simulation/nlp-pm-p10",
+   "type": "Simulation",
+   "label_ko": "배는 누구를 볼까",
+   "label_en": "Attention demo",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:simulation/nlp-pm-p11",
+   "type": "Simulation",
+   "label_ko": "작은 언어 모델",
+   "label_en": "Tiny language model",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:simulation/nlp-pm-p12",
+   "type": "Simulation",
+   "label_ko": "문의 묶기와 검색",
+   "label_en": "Ticket clustering and search",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:simulation/nlp-pm-p13",
+   "type": "Simulation",
+   "label_ko": "판정 뒤집기 채점표",
+   "label_en": "Confusion-matrix game",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:dataset/nlp-pm-examples",
+   "type": "Dataset",
+   "label_ko": "저녁반 예시 글 묶음",
+   "label_en": "Evening-session example texts",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:question/one-day-nlp-summary",
+   "type": "Question",
+   "label_ko": "하루 만에 자연어 분석 입문 범위를 정리할 수 있나",
+   "label_en": "Can NLP basics be summarised in one day?",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:question/when-llm-vs-baseline",
+   "type": "Question",
+   "label_ko": "언제 LLM을 쓰고 언제 기준 모델로 충분한가",
+   "label_en": "When is an LLM worth it over a baseline?",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:question/how-check-llm-labels",
+   "type": "Question",
+   "label_ko": "LLM이 붙인 딱지를 얼마나 확인해야 믿을 수 있나",
+   "label_en": "How much checking do LLM labels need?",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:question/korean-tokenization",
+   "type": "Question",
+   "label_ko": "한국어는 어떤 단위로 자르는 것이 가장 좋은가",
+   "label_en": "What is the best tokenization unit for Korean?",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:work/one-day-nlp-source-notes",
+   "type": "Work",
+   "label_ko": "원 노트",
+   "label_en": "NLP complete notes (Ali Data Analytics)",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:work/vaswani2017attention",
+   "type": "Work",
+   "label_ko": "Vaswani 외 (2017)",
+   "label_en": "Attention Is All You Need",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:work/devlin2019bert",
+   "type": "Work",
+   "label_ko": "Devlin 외 (2019)",
+   "label_en": "BERT",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:work/mikolov2013efficient",
+   "type": "Work",
+   "label_ko": "Mikolov 외 (2013)",
+   "label_en": "Word2Vec",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:work/sennrich2016neural",
+   "type": "Work",
+   "label_ko": "Sennrich 외 (2016)",
+   "label_en": "Subword units (BPE)",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:work/manning2008introduction",
+   "type": "Work",
+   "label_ko": "Manning 외 (2008)",
+   "label_en": "Introduction to Information Retrieval",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:work/lewis2020retrieval",
+   "type": "Work",
+   "label_ko": "Lewis 외 (2020)",
+   "label_en": "Retrieval-Augmented Generation",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  },
+  {
+   "id": "lab:work/pedregosa2011scikit",
+   "type": "Work",
+   "label_ko": "Pedregosa 외 (2011)",
+   "label_en": "Scikit-learn",
+   "pages": [
+    "one_day_nlp_pm"
+   ]
+  }
+ ]
+}
