@@ -50,11 +50,11 @@
     "moa"
    ],
    "robot": null,
-   "prompt_en": "docs/COVER_one_day_nlp_pm.md",
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md",
    "source_of": null,
    "status": "done",
    "style": "pixel",
-   "note": "캐릭터 팩 픽셀 그림(sia E17, moa E01)을 640×360 격자 배경에 얹어 3배 확대. Genspark 그림을 받으면 교체 가능"
+   "note": "Genspark 픽셀 그림(원격자 480×270 ×4, 무손실). 2026-11-23 교체"
   },
   {
    "id": "og",
@@ -71,11 +71,11 @@
     "moa"
    ],
    "robot": null,
-   "prompt_en": "",
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md",
    "source_of": "cover",
    "status": "done",
    "style": "pixel",
-   "note": "표지 원격자에서 400×210을 잘라 3배"
+   "note": "새 표지 원격자에서 400×210 자름 ×3"
   },
   {
    "id": "thumb",
@@ -92,11 +92,183 @@
     "moa"
    ],
    "robot": null,
-   "prompt_en": "",
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md",
    "source_of": "cover",
    "status": "done",
    "style": "pixel",
-   "note": "표지 원격자에서 300×200을 잘라 2배"
+   "note": "새 표지 원격자에서 300×200 자름 ×2"
+  },
+  {
+   "id": "practice_cover",
+   "role": "cover",
+   "path": "practice/cover_practice.webp",
+   "embedded_in": "practice/index.html",
+   "key": "header.hero img.c2img",
+   "size": [
+    1920,
+    1080
+   ],
+   "characters": [
+    "sia",
+    "moa",
+    "robo",
+    "fly"
+   ],
+   "robot": "robo",
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md#대화-2",
+   "source_of": null,
+   "status": "done",
+   "style": "pixel",
+   "note": "480×270 ×4"
+  },
+  {
+   "id": "final",
+   "role": "scene",
+   "path": "sc_final_interview.webp",
+   "embedded_in": "index.html",
+   "key": "#final img.scimg",
+   "size": [
+    1920,
+    1080
+   ],
+   "characters": [
+    "doc",
+    "sia",
+    "moa"
+   ],
+   "robot": null,
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md#대화-2",
+   "source_of": null,
+   "status": "done",
+   "style": "pixel",
+   "note": "480×270 ×4"
+  },
+  {
+   "id": "period1",
+   "role": "scene",
+   "path": "sc_period1.webp",
+   "embedded_in": "index.html",
+   "key": "figure.stage2[data-img=sc_period1] img.s2img",
+   "size": [
+    1200,
+    800
+   ],
+   "characters": [
+    "moa",
+    "doc"
+   ],
+   "robot": null,
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md#대화-3",
+   "source_of": null,
+   "status": "done",
+   "style": "pixel",
+   "note": "300×200 ×4"
+  },
+  {
+   "id": "period2",
+   "role": "scene",
+   "path": "sc_period2.webp",
+   "embedded_in": "index.html",
+   "key": "figure.stage2[data-img=sc_period2] img.s2img",
+   "size": [
+    1200,
+    800
+   ],
+   "characters": [
+    "sia",
+    "fly"
+   ],
+   "robot": null,
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md#대화-3",
+   "source_of": null,
+   "status": "done",
+   "style": "pixel",
+   "note": "300×200 ×4"
+  },
+  {
+   "id": "period3",
+   "role": "scene",
+   "path": "sc_period3.webp",
+   "embedded_in": "index.html",
+   "key": "figure.stage2[data-img=sc_period3] img.s2img",
+   "size": [
+    1200,
+    800
+   ],
+   "characters": [
+    "robo",
+    "asst"
+   ],
+   "robot": "robo",
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md#대화-3",
+   "source_of": null,
+   "status": "done",
+   "style": "pixel",
+   "note": "300×200 ×4"
+  },
+  {
+   "id": "period4",
+   "role": "scene",
+   "path": "sc_period4.webp",
+   "embedded_in": "index.html",
+   "key": "figure.stage2[data-img=sc_period4] img.s2img",
+   "size": [
+    1200,
+    800
+   ],
+   "characters": [
+    "moa",
+    "sia"
+   ],
+   "robot": null,
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md#대화-3",
+   "source_of": null,
+   "status": "done",
+   "style": "pixel",
+   "note": "300×200 ×4"
+  },
+  {
+   "id": "period5",
+   "role": "scene",
+   "path": "sc_period5.webp",
+   "embedded_in": "index.html",
+   "key": "figure.stage2[data-img=sc_period5] img.s2img",
+   "size": [
+    1200,
+    800
+   ],
+   "characters": [
+    "doc",
+    "asst"
+   ],
+   "robot": null,
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md#대화-3",
+   "source_of": null,
+   "status": "done",
+   "style": "pixel",
+   "note": "300×200 ×4"
+  },
+  {
+   "id": "period6",
+   "role": "scene",
+   "path": "sc_period6.webp",
+   "embedded_in": "index.html",
+   "key": "figure.stage2[data-img=sc_period6] img.s2img",
+   "size": [
+    1200,
+    800
+   ],
+   "characters": [
+    "sia",
+    "moa",
+    "fly"
+   ],
+   "robot": null,
+   "prompt_en": "docs/IMG_one_day_nlp_pm.md#대화-3",
+   "source_of": null,
+   "status": "done",
+   "style": "pixel",
+   "note": "300×200 ×4"
   }
  ]
 }

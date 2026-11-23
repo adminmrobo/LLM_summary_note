@@ -42,7 +42,8 @@ AI 연구실 해설 · 쪽지시험 대비 · 비전공자용
 |---|---|
 | `index.html` | 저녁반 해설 페이지 (단일 파일) |
 | `practice/index.html` | 부록 실전 연습장 |
-| `cover_one_day_nlp_pm.webp` | 표지 픽셀 그림 1920×1080 (640×360 원격자를 3배, 무손실) |
+| `cover_one_day_nlp_pm.webp` | 표지 픽셀 그림 1920×1080 (Genspark, 480×270 원격자 4배, 무손실) |
+| `sc_period1~6.webp` · `sc_final_interview.webp` · `practice/cover_practice.webp` | 교시 머리 6장(1200×800) · 종례 면접 · 연습장 표지 (모두 픽셀 무손실) |
 | `og_one_day_nlp_pm.jpg` · `thumb_one_day_nlp_pm.webp` | 공유 미리보기 1200×630 · 썸네일 600×400 (원격자에서 잘라 정수배) |
 | `docs/IMG_one_day_nlp_pm.md` | 이미지 제작 명세서 — 그림 목록·검토·Genspark 픽셀풍 프롬프트 (대화 1~3) |
 | `docs/COVER_one_day_nlp_pm.md` | 표지 첫 판 기록 |

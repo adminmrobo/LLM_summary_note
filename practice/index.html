@@ -646,6 +646,9 @@ select{font:inherit;font-size:14px;padding:3px 6px;border:1px solid var(--rule);
 .scene[hidden]{display:none}
 .eq{white-space:normal}
 .t13 td{vertical-align:middle}.t13 small{font-weight:400;color:var(--muted)}.t13 .chip{margin-left:4px;white-space:nowrap}
+.s2img{display:block;width:100%;height:auto;border-radius:12px;border:1px solid var(--rule);margin-top:10px;image-rendering:pixelated}
+.scimg{display:block;width:100%;max-width:960px;height:auto;border-radius:14px;border:1px solid var(--rule);margin:14px auto;image-rendering:pixelated}
+.stage2 .s2txt b{word-break:keep-all}
 </style>
 <script id="px-fix-js">(function(){var R=window.ResizeObserver;function f(i){var n=i.naturalWidth,w=i.getBoundingClientRect().width;if(!n||!w)return;var s=w*(window.devicePixelRatio||1)/n;i.style.setProperty("image-rendering",s>=1.95?"pixelated":"auto","important")}var ro=R?new R(function(es){es.forEach(function(e){f(e.target)})}):null;function a(i){if(i.__px)return;i.__px=1;i.addEventListener("load",function(){f(i)});if(ro)ro.observe(i);f(i)}function all(r){(r||document).querySelectorAll&&(r||document).querySelectorAll("img").forEach(a)}function go(){all();if(window.MutationObserver)new MutationObserver(function(ms){ms.forEach(function(m){m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;if(n.tagName==="IMG")a(n);else all(n)})})}).observe(document.documentElement,{childList:true,subtree:true});window.addEventListener("resize",function(){document.querySelectorAll("img").forEach(f)})}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",go);else go()})();</script>
 </head>
@@ -654,6 +657,7 @@ select{font:inherit;font-size:14px;padding:3px 6px;border:1px solid var(--rule);
 <header class="hero"><div class="wrap">
   <div class="kicker">하루에 다 끝내는 자연어 분석 서머리 노트 · 마지막 장</div>
   <h1>실전 연습장 — 가상 쇼핑몰 "모아마켓" 운영하기</h1>
+  <img class="c2img px" src="cover_practice.webp" width="1920" height="1080" alt="픽셀 그림. 택배 상자가 쌓인 쇼핑몰 사무실입니다. 벽 모니터에 후기판·편지함·대화창 세 화면이 떠 있고, 시아는 색색의 편지를 상자에 나누고, 모아는 모니터를 가리키며 웃습니다. 구석에서 주판봇이 주판을 들고, 초파리 연구원이 상자 뒤에서 점검표를 들고 내다봅니다">
   <p class="lead">저녁반 14단계에서 배운 것을 가상 쇼핑몰에서 직접 써 봅니다. 장면마다 초록 상자는 <b>바꿀 수 없는 환경</b>, 파랑 상자는 <b>내 결정</b>입니다. 미션 셋을 통과해 보세요.</p>
   <div class="tabs" role="tablist" aria-label="장면"><button class="bt" role="tab" data-tab="shop" aria-selected="true">① 가게 후기판</button><button class="bt" role="tab" data-tab="desk" aria-selected="false">② 고객센터 문의 묶기</button><button class="bt" role="tab" data-tab="bot" aria-selected="false">③ 사내 챗봇(RAG)</button></div>
 </div></header>

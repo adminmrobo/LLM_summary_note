@@ -646,6 +646,9 @@ select{font:inherit;font-size:14px;padding:3px 6px;border:1px solid var(--rule);
 .scene[hidden]{display:none}
 .eq{white-space:normal}
 .t13 td{vertical-align:middle}.t13 small{font-weight:400;color:var(--muted)}.t13 .chip{margin-left:4px;white-space:nowrap}
+.s2img{display:block;width:100%;height:auto;border-radius:12px;border:1px solid var(--rule);margin-top:10px;image-rendering:pixelated}
+.scimg{display:block;width:100%;max-width:960px;height:auto;border-radius:14px;border:1px solid var(--rule);margin:14px auto;image-rendering:pixelated}
+.stage2 .s2txt b{word-break:keep-all}
 </style>
 <script id="px-fix-js">(function(){var R=window.ResizeObserver;function f(i){var n=i.naturalWidth,w=i.getBoundingClientRect().width;if(!n||!w)return;var s=w*(window.devicePixelRatio||1)/n;i.style.setProperty("image-rendering",s>=1.95?"pixelated":"auto","important")}var ro=R?new R(function(es){es.forEach(function(e){f(e.target)})}):null;function a(i){if(i.__px)return;i.__px=1;i.addEventListener("load",function(){f(i)});if(ro)ro.observe(i);f(i)}function all(r){(r||document).querySelectorAll&&(r||document).querySelectorAll("img").forEach(a)}function go(){all();if(window.MutationObserver)new MutationObserver(function(ms){ms.forEach(function(m){m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;if(n.tagName==="IMG")a(n);else all(n)})})}).observe(document.documentElement,{childList:true,subtree:true});window.addEventListener("resize",function(){document.querySelectorAll("img").forEach(f)})}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",go);else go()})();</script>
 </head>
@@ -661,7 +664,7 @@ select{font:inherit;font-size:14px;padding:3px 6px;border:1px solid var(--rule);
 <!-- 글 표지 (픽셀 그림: 저녁 연구실의 시아와 모아) + 움직이는 도표 -->
 <figure class="cover2" id="cover" data-img="cover_one_day_nlp_pm"><div class="in">
   <div class="c2head"><span class="c2k">ONE-DAY NOTE · 저녁반</span><b>하루에 다 끝내는 자연어 분석 서머리 노트</b><span class="c2s">박사의 쪽지시험 전날 밤, 인턴 둘의 마지막 정리</span></div>
-  <img class="c2img px" src="cover_one_day_nlp_pm.webp" width="1920" height="1080" alt="픽셀 그림. 해가 지는 창밖으로 도시 불빛이 켜진 연구실입니다. 책상 앞에서 인턴 시아가 손으로 입을 가리고 하품하고, 옆자리의 모아는 찻잔을 들고 웃습니다. 모니터와 허공에 말풍선과 작은 네모 조각들이 떠 있어, 글자가 조각나 숫자가 되는 모습을 나타냅니다">
+  <img class="c2img px" src="cover_one_day_nlp_pm.webp" width="1920" height="1080" alt="픽셀 그림. 해 질 녘 연구실입니다. 창밖으로 보라와 주황빛 하늘 아래 도시 불빛이 켜집니다. 책상 앞에서 흑발의 인턴 시아가 손으로 입을 가리고 하품하고, 옆자리의 모아는 분홍 찻잔을 두 손으로 들고 눈을 감고 웃습니다. 책상에는 노트북, 펼친 공책, 막대그래프가 뜬 모니터, 탁상 조명이 있고, 두 사람 머리 위 말풍선에서 색 조각이 흘러나와 작은 막대그래프가 됩니다">
   <figcaption class="small muted">그림 아래 작은 도표를 누르면 그 단계로 갑니다.</figcaption>
   <div class="dash"><a class="tile" href="#r4"><canvas data-fig="tok" aria-hidden="true"></canvas><b><i>4단계</i>토큰 자르기</b></a><a class="tile" href="#r6"><canvas data-fig="tfidf" aria-hidden="true"></canvas><b><i>6단계</i>흔한 말 깎기</b></a><a class="tile" href="#r7"><canvas data-fig="emb" aria-hidden="true"></canvas><b><i>7단계</i>뜻의 지도</b></a><a class="tile" href="#r10"><canvas data-fig="attn" aria-hidden="true"></canvas><b><i>10단계</i>서로 보기</b></a><a class="tile opt" href="#r3"><canvas data-fig="clean" aria-hidden="true"></canvas><b><i>3단계</i>소음 걷기</b></a><a class="tile opt" href="#r8"><canvas data-fig="cls" aria-hidden="true"></canvas><b><i>8단계</i>좋아요·싫어요</b></a><a class="tile opt" href="#r11"><canvas data-fig="gen" aria-hidden="true"></canvas><b><i>11단계</i>다음 말 잇기</b></a><a class="tile opt" href="#r13"><canvas data-fig="eval" aria-hidden="true"></canvas><b><i>13단계</i>채점표</b></a></div>
 </div></figure>
@@ -796,7 +799,7 @@ select{font:inherit;font-size:14px;padding:3px 6px;border:1px solid var(--rule);
 </section>
 
 <!-- ===== 1교시 ===== -->
-<div class="wrap"><figure class="stage2" data-img="sc_period1" style="--n:2" role="img" aria-label="1교시 · 사람 말을 읽는 컴퓨터 (1~2단계). 단계마다 하나씩 움직이는 작은 도표 2개"><div class="s2txt"><span class="c2k">PERIOD 1</span><b>1교시 · 사람 말을 읽는 컴퓨터 (1~2단계)</b><span>자연어 분석이 무슨 일을 하는지, 어떤 순서로 일하는지 봅니다.</span><div class="s2cast"><img data-who="sia" data-mood="e10" alt=""><img data-who="moa" data-mood="e12" alt=""><img data-who="doc" data-mood="e16" alt=""></div></div><div class="dash"><a class="tile" href="#r1"><canvas data-fig="nlp" aria-hidden="true"></canvas><b><i>1단계</i>말을 숫자로</b></a><a class="tile" href="#r2"><canvas data-fig="flow" aria-hidden="true"></canvas><b><i>2단계</i>여덟 걸음</b></a></div></figure></div>
+<div class="wrap"><figure class="stage2" data-img="sc_period1" style="--n:2"><div class="s2txt"><span class="c2k">PERIOD 1</span><b>1교시 · 사람 말을 읽는 컴퓨터 (1~2단계)</b><span>자연어 분석이 무슨 일을 하는지, 어떤 순서로 일하는지 봅니다.</span><img class="s2img px" src="sc_period1.webp" width="1200" height="800" loading="lazy" alt="픽셀 그림. 모아가 손가락을 들고 말풍선 속 색 조각을 띄우자, 조각들이 줄지어 작은 컴퓨터 화면의 표로 들어갑니다. 옆에서 박사가 턱을 괴고 지켜봅니다"></div><div class="dash"><a class="tile" href="#r1"><canvas data-fig="nlp" aria-hidden="true"></canvas><b><i>1단계</i>말을 숫자로</b></a><a class="tile" href="#r2"><canvas data-fig="flow" aria-hidden="true"></canvas><b><i>2단계</i>여덟 걸음</b></a></div></figure></div>
 
 <section class="level" id="r1">
 <div class="wrap">
@@ -899,7 +902,7 @@ select{font:inherit;font-size:14px;padding:3px 6px;border:1px solid var(--rule);
 </section>
 
 <!-- ===== 2교시 ===== -->
-<div class="wrap"><figure class="stage2" data-img="sc_period2" style="--n:2" role="img" aria-label="2교시 · 글 다듬고 자르기 (3~4단계). 단계마다 하나씩 움직이는 작은 도표 2개"><div class="s2txt"><span class="c2k">PERIOD 2</span><b>2교시 · 글 다듬고 자르기 (3~4단계)</b><span>소음을 걷어 내되 뜻은 지키고, 글을 모델이 다룰 조각으로 자릅니다.</span><div class="s2cast"><img data-who="moa" data-mood="e07" alt=""><img data-who="sia" data-mood="e13" alt=""><img data-who="fly" data-mood="e13" alt=""></div></div><div class="dash"><a class="tile" href="#r3"><canvas data-fig="clean" aria-hidden="true"></canvas><b><i>3단계</i>소음 걷기</b></a><a class="tile" href="#r4"><canvas data-fig="tok" aria-hidden="true"></canvas><b><i>4단계</i>토큰 자르기</b></a></div></figure></div>
+<div class="wrap"><figure class="stage2" data-img="sc_period2" style="--n:2"><div class="s2txt"><span class="c2k">PERIOD 2</span><b>2교시 · 글 다듬고 자르기 (3~4단계)</b><span>소음을 걷어 내되 뜻은 지키고, 글을 모델이 다룰 조각으로 자릅니다.</span><img class="s2img px" src="sc_period2.webp" width="1200" height="800" loading="lazy" alt="픽셀 그림. 시아가 색 조각이 줄지어 붙은 긴 종이를 가위로 잘라 작은 네모 조각으로 만듭니다. 회색 부스러기는 휴지통으로 떨어지고, 초파리 연구원이 날아와 분홍 조각 하나를 구해 냅니다"></div><div class="dash"><a class="tile" href="#r3"><canvas data-fig="clean" aria-hidden="true"></canvas><b><i>3단계</i>소음 걷기</b></a><a class="tile" href="#r4"><canvas data-fig="tok" aria-hidden="true"></canvas><b><i>4단계</i>토큰 자르기</b></a></div></figure></div>
 
 <section class="level" id="r3">
 <div class="wrap">
@@ -1024,7 +1027,7 @@ print(len(words), "tokens")</pre>
 </section>
 
 <!-- ===== 3교시 ===== -->
-<div class="wrap"><figure class="stage2" data-img="sc_period3" style="--n:3" role="img" aria-label="3교시 · 글자를 숫자로 (5~7단계). 단계마다 하나씩 움직이는 작은 도표 3개"><div class="s2txt"><span class="c2k">PERIOD 3</span><b>3교시 · 글자를 숫자로 (5~7단계)</b><span>세고, 무게를 달고, 뜻의 지도에 놓습니다. 오늘 밤의 가장 큰 고비입니다.</span><div class="s2cast"><img data-who="robo" data-mood="e16" alt=""><img data-who="asst" data-mood="e24" alt=""><img data-who="sia" data-mood="e10" alt=""></div></div><div class="dash"><a class="tile" href="#r5"><canvas data-fig="bow" aria-hidden="true"></canvas><b><i>5단계</i>단어 세기</b></a><a class="tile" href="#r6"><canvas data-fig="tfidf" aria-hidden="true"></canvas><b><i>6단계</i>흔한 말 깎기</b></a><a class="tile" href="#r7"><canvas data-fig="emb" aria-hidden="true"></canvas><b><i>7단계</i>뜻의 지도</b></a></div></figure></div>
+<div class="wrap"><figure class="stage2" data-img="sc_period3" style="--n:3"><div class="s2txt"><span class="c2k">PERIOD 3</span><b>3교시 · 글자를 숫자로 (5~7단계)</b><span>세고, 무게를 달고, 뜻의 지도에 놓습니다. 오늘 밤의 가장 큰 고비입니다.</span><img class="s2img px" src="sc_period3.webp" width="1200" height="800" loading="lazy" alt="픽셀 그림. 주판봇이 주판알을 세고, 옆에서 조수 하루가 색 점들이 몇 무리로 모인 지도를 들고 있습니다"></div><div class="dash"><a class="tile" href="#r5"><canvas data-fig="bow" aria-hidden="true"></canvas><b><i>5단계</i>단어 세기</b></a><a class="tile" href="#r6"><canvas data-fig="tfidf" aria-hidden="true"></canvas><b><i>6단계</i>흔한 말 깎기</b></a><a class="tile" href="#r7"><canvas data-fig="emb" aria-hidden="true"></canvas><b><i>7단계</i>뜻의 지도</b></a></div></figure></div>
 
 <section class="level" id="r5">
 <div class="wrap">
@@ -1215,7 +1218,7 @@ print(round(cos(v["good"], v["great"]), 3), round(cos(v["good"], v["bad"]), 3))
 </section>
 
 <!-- ===== 4교시 ===== -->
-<div class="wrap"><figure class="stage2" data-img="sc_period4" style="--n:2" role="img" aria-label="4교시 · 글에 딱지 붙이기 (8~9단계). 단계마다 하나씩 움직이는 작은 도표 2개"><div class="s2txt"><span class="c2k">PERIOD 4</span><b>4교시 · 글에 딱지 붙이기 (8~9단계)</b><span>글 전체에 딱지 하나(감성 분류), 낱말마다 딱지 하나(개체명 인식).</span><div class="s2cast"><img data-who="moa" data-mood="e16" alt=""><img data-who="robo" data-mood="e13" alt=""><img data-who="fly" data-mood="e09" alt=""></div></div><div class="dash"><a class="tile" href="#r8"><canvas data-fig="cls" aria-hidden="true"></canvas><b><i>8단계</i>좋아요·싫어요</b></a><a class="tile" href="#r9"><canvas data-fig="ner" aria-hidden="true"></canvas><b><i>9단계</i>이름 찾기</b></a></div></figure></div>
+<div class="wrap"><figure class="stage2" data-img="sc_period4" style="--n:2"><div class="s2txt"><span class="c2k">PERIOD 4</span><b>4교시 · 글에 딱지 붙이기 (8~9단계)</b><span>글 전체에 딱지 하나(감성 분류), 낱말마다 딱지 하나(개체명 인식).</span><img class="s2img px" src="sc_period4.webp" width="1200" height="800" loading="lazy" alt="픽셀 그림. 모아가 노랑·초록·파랑·주황 형광펜으로 긴 종이에 칠하고, 시아는 카드를 웃는 얼굴 상자와 찡그린 얼굴 상자로 나눕니다"></div><div class="dash"><a class="tile" href="#r8"><canvas data-fig="cls" aria-hidden="true"></canvas><b><i>8단계</i>좋아요·싫어요</b></a><a class="tile" href="#r9"><canvas data-fig="ner" aria-hidden="true"></canvas><b><i>9단계</i>이름 찾기</b></a></div></figure></div>
 
 <section class="level" id="r8">
 <div class="wrap">
@@ -1342,7 +1345,7 @@ for ent in doc.ents: print(ent.text, ent.label_)   # 개체와 딱지 출력</pr
 </section>
 
 <!-- ===== 5교시 ===== -->
-<div class="wrap"><figure class="stage2" data-img="sc_period5" style="--n:2" role="img" aria-label="5교시 · 트랜스포머와 LLM (10~11단계). 단계마다 하나씩 움직이는 작은 도표 2개"><div class="s2txt"><span class="c2k">PERIOD 5</span><b>5교시 · 트랜스포머와 LLM (10~11단계)</b><span>낱말이 서로를 보게 만든 장치, 그리고 그 장치로 만든 두 갈래 모델.</span><div class="s2cast"><img data-who="doc" data-mood="e13" alt=""><img data-who="asst" data-mood="e07" alt=""><img data-who="moa" data-mood="e24" alt=""></div></div><div class="dash"><a class="tile" href="#r10"><canvas data-fig="attn" aria-hidden="true"></canvas><b><i>10단계</i>서로 보기</b></a><a class="tile" href="#r11"><canvas data-fig="gen" aria-hidden="true"></canvas><b><i>11단계</i>가린 말·다음 말</b></a></div></figure></div>
+<div class="wrap"><figure class="stage2" data-img="sc_period5" style="--n:2"><div class="s2txt"><span class="c2k">PERIOD 5</span><b>5교시 · 트랜스포머와 LLM (10~11단계)</b><span>낱말이 서로를 보게 만든 장치, 그리고 그 장치로 만든 두 갈래 모델.</span><img class="s2img px" src="sc_period5.webp" width="1200" height="800" loading="lazy" alt="픽셀 그림. 책상 위 네모 조각들이 서로서로 주황 빛줄기로 이어져 있습니다. 박사가 빛줄기를 가리키고, 조수 하루가 두 손을 모으고 놀랍니다"></div><div class="dash"><a class="tile" href="#r10"><canvas data-fig="attn" aria-hidden="true"></canvas><b><i>10단계</i>서로 보기</b></a><a class="tile" href="#r11"><canvas data-fig="gen" aria-hidden="true"></canvas><b><i>11단계</i>가린 말·다음 말</b></a></div></figure></div>
 
 <section class="level" id="r10">
 <div class="wrap">
@@ -1483,7 +1486,7 @@ print(clf("The delivery was quick and the staff were helpful."))
 </section>
 
 <!-- ===== 6교시 ===== -->
-<div class="wrap"><figure class="stage2" data-img="sc_period6" style="--n:3" role="img" aria-label="6교시 · 찾고, 재고, 쓰기 (12~14단계). 단계마다 하나씩 움직이는 작은 도표 3개"><div class="s2txt"><span class="c2k">PERIOD 6</span><b>6교시 · 찾고, 재고, 쓰기 (12~14단계)</b><span>비슷한 글을 찾고, 정직하게 채점하고, 현장의 함정을 피합니다.</span><div class="s2cast"><img data-who="sia" data-mood="e15" alt=""><img data-who="moa" data-mood="e13" alt=""><img data-who="robo" data-mood="e16" alt=""><img data-who="fly" data-mood="e13" alt=""></div></div><div class="dash"><a class="tile" href="#r12"><canvas data-fig="sim" aria-hidden="true"></canvas><b><i>12단계</i>비슷한 글</b></a><a class="tile" href="#r13"><canvas data-fig="eval" aria-hidden="true"></canvas><b><i>13단계</i>채점표</b></a><a class="tile" href="#r14"><canvas data-fig="field" aria-hidden="true"></canvas><b><i>14단계</i>현장 실수</b></a></div></figure></div>
+<div class="wrap"><figure class="stage2" data-img="sc_period6" style="--n:3"><div class="s2txt"><span class="c2k">PERIOD 6</span><b>6교시 · 찾고, 재고, 쓰기 (12~14단계)</b><span>비슷한 글을 찾고, 정직하게 채점하고, 현장의 함정을 피합니다.</span><img class="s2img px" src="sc_period6.webp" width="1200" height="800" loading="lazy" alt="픽셀 그림. 시아가 색깔별로 묶인 편지 더미를 돋보기로 살피고, 모아는 웃습니다. 작은 연못 위 그물에 물고기 몇 마리가 잡혀 있고 연못에는 아직 물고기가 남아 있습니다. 초파리 연구원이 체크 표시가 된 점검표를 들고 있습니다"></div><div class="dash"><a class="tile" href="#r12"><canvas data-fig="sim" aria-hidden="true"></canvas><b><i>12단계</i>비슷한 글</b></a><a class="tile" href="#r13"><canvas data-fig="eval" aria-hidden="true"></canvas><b><i>13단계</i>채점표</b></a><a class="tile" href="#r14"><canvas data-fig="field" aria-hidden="true"></canvas><b><i>14단계</i>현장 실수</b></a></div></figure></div>
 
 <section class="level" id="r12">
 <div class="wrap">
@@ -1667,6 +1670,7 @@ print(precision_score(y_true, y_pred), recall_score(y_true, y_pred), round(f1_sc
     <p class="sub"><span class="lvtag g">자주 나오는 면접 질문과 짧은 답</span><span class="lvtag">일상: 면접 전날 예상 질문 카드</span></p></div>
   </div>
 <div class="say" data-who="doc"><img data-who="doc" data-mood="e13" alt="" aria-hidden="true"><div><b class="name">박사</b><p>쪽지시험 대신 오늘 밤은 면접처럼 묻겠습니다. 카드를 눌러 먼저 소리 내어 답해 보고, 뒤집어 확인하세요. 짧게, 그러나 정확하게.</p></div></div>
+  <img class="scimg px" src="sc_final_interview.webp" width="1920" height="1080" loading="lazy" alt="픽셀 그림. 밤의 면접실입니다. 박사가 백지 카드 묶음을 들고 따뜻하게 웃고, 맞은편의 시아는 긴장했지만 곧게 앉아 있으며, 옆의 모아가 엄지를 들어 응원합니다. 탁자에는 카드, 찻잔 둘, 모래시계가 있습니다">
   <div class="flips" id="g15"></div>
   <p class="small muted">카드는 누르거나 Enter 키로 뒤집습니다. 뒤집은 수는 화면에만 남습니다. <span id="g15n"></span></p>
 <div class="exam" id="xe7"><div class="examhd"><img data-who="doc" data-mood="e10" alt="" aria-hidden="true"><div><b>박사의 모의 면접 · 확인 6문제</b><span>카드를 다 보았다면 풀어 보세요. 처음 고른 답으로 채점합니다.</span></div></div><div class="quiz" data-quiz="iv"></div></div>
