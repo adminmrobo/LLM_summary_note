@@ -44,7 +44,8 @@ AI 연구실 해설 · 쪽지시험 대비 · 비전공자용
 | `practice/index.html` | 부록 실전 연습장 |
 | `cover_one_day_nlp_pm.webp` | 표지 픽셀 그림 1920×1080 (640×360 원격자를 3배, 무손실) |
 | `og_one_day_nlp_pm.jpg` · `thumb_one_day_nlp_pm.webp` | 공유 미리보기 1200×630 · 썸네일 600×400 (원격자에서 잘라 정수배) |
-| `docs/COVER_one_day_nlp_pm.md` | 표지 그림 지시문 (Genspark용 픽셀풍 프롬프트) |
+| `docs/IMG_one_day_nlp_pm.md` | 이미지 제작 명세서 — 그림 목록·검토·Genspark 픽셀풍 프롬프트 (대화 1~3) |
+| `docs/COVER_one_day_nlp_pm.md` | 표지 첫 판 기록 |
 | `cover_manifest.json` | 표지·온톨로지·언어 현황 (현황판 연결) |
 | `KG_new_ids.json` | 시리즈 등록부에 더할 새 개념 ID |
 
